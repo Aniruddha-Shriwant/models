@@ -14,7 +14,7 @@
 
 namespace org.accordproject.geo
 
-import org.accordproject.address.PostalAddress from https://models.accordproject.org/address.cto
+import org.accordproject.address.PostalAddress from https://release-1-0--accordproject-models.netlify.com/address.cto
 
 /**
  * http://schema.org/GeoCoordinates

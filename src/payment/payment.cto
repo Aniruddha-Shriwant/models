@@ -14,8 +14,8 @@
 
 namespace org.accordproject.payment
 
-import org.accordproject.cicero.runtime.Request from https://models.accordproject.org/cicero/runtime.cto
-import org.accordproject.cicero.contract.AccordContract from https://models.accordproject.org/cicero/contract.cto
+import org.accordproject.cicero.runtime.Request from https://release-1-0--accordproject-models.netlify.com/cicero/runtime.cto
+import org.accordproject.cicero.contract.AccordContract from https://release-1-0--accordproject-models.netlify.com/cicero/contract.cto
 
 /**
  * A request that indicates that a payment has been received

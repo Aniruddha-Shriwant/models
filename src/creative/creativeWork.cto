@@ -14,9 +14,9 @@
 
 namespace org.accordproject.creativework
 
-import org.accordproject.time.Duration from https://models.accordproject.org/time@0.2.0.cto
-import org.accordproject.person.Person from https://models.accordproject.org/person.cto
-import org.accordproject.organization.Organization from https://models.accordproject.org/organization.cto
+import org.accordproject.time.Duration from https://release-1-0--accordproject-models.netlify.com/time@0.2.0.cto
+import org.accordproject.person.Person from https://release-1-0--accordproject-models.netlify.com/person.cto
+import org.accordproject.organization.Organization from https://release-1-0--accordproject-models.netlify.com/organization.cto
 
 /**
  * Based on https://schema.org/CreativeWork

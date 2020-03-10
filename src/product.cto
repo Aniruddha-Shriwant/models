@@ -14,9 +14,9 @@
 
 namespace org.accordproject.product
 
-import org.accordproject.value.QuantitativeValue from https://models.accordproject.org/value.cto
-import org.accordproject.address.PostalAddress from https://models.accordproject.org/address.cto
-import org.accordproject.organization.Organization from https://models.accordproject.org/organization.cto
+import org.accordproject.value.QuantitativeValue from https://release-1-0--accordproject-models.netlify.com/value.cto
+import org.accordproject.address.PostalAddress from https://release-1-0--accordproject-models.netlify.com/address.cto
+import org.accordproject.organization.Organization from https://release-1-0--accordproject-models.netlify.com/organization.cto
 
 /**
  * http://schema.org/Product

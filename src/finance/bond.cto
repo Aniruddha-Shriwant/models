@@ -14,9 +14,9 @@
 
 namespace org.accordproject.finance.bond
 
-import org.accordproject.organization.Organization from https://models.accordproject.org/organization.cto
-import org.accordproject.time.Duration from https://models.accordproject.org/time.cto
-import org.accordproject.money.CurrencyCode from https://models.accordproject.org/money.cto
+import org.accordproject.organization.Organization from https://release-1-0--accordproject-models.netlify.com/organization.cto
+import org.accordproject.time.Duration from https://release-1-0--accordproject-models.netlify.com/time.cto
+import org.accordproject.money.CurrencyCode from https://release-1-0--accordproject-models.netlify.com/money.cto
 
 enum CouponType {
   o FIXED

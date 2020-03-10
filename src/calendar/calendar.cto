@@ -14,8 +14,8 @@
 
 namespace org.accordproject.calendar
 
-import org.accordproject.time.Duration from https://models.accordproject.org/time@0.2.0.cto
-import org.accordproject.geo.GeoCoordinates from https://models.accordproject.org/geo.cto
+import org.accordproject.time.Duration from https://release-1-0--accordproject-models.netlify.com/time@0.2.0.cto
+import org.accordproject.geo.GeoCoordinates from https://release-1-0--accordproject-models.netlify.com/geo.cto
 
 /**
  * This is based on RFC 5545

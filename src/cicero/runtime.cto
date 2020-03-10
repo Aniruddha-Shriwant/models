@@ -14,9 +14,9 @@
 
 namespace org.accordproject.cicero.runtime
 
-import org.accordproject.cicero.contract.AccordContract from https://models.accordproject.org/cicero/contract.cto
-import org.accordproject.cicero.contract.AccordContractState from https://models.accordproject.org/cicero/contract.cto
-import org.accordproject.money.MonetaryAmount from https://models.accordproject.org/money.cto
+import org.accordproject.cicero.contract.AccordContract from https://release-1-0--accordproject-models.netlify.com/cicero/contract.cto
+import org.accordproject.cicero.contract.AccordContractState from https://release-1-0--accordproject-models.netlify.com/cicero/contract.cto
+import org.accordproject.money.MonetaryAmount from https://release-1-0--accordproject-models.netlify.com/money.cto
 
 /**
  * Contract API

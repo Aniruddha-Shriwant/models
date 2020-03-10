@@ -17,8 +17,8 @@
  */
 namespace com.docusign.connect
 
-import org.accordproject.cicero.runtime.Request from https://models.accordproject.org/cicero/runtime.cto
-import org.accordproject.binary.BinaryResource from https://models.accordproject.org/binary.cto
+import org.accordproject.cicero.runtime.Request from https://release-1-0--accordproject-models.netlify.com/cicero/runtime.cto
+import org.accordproject.binary.BinaryResource from https://release-1-0--accordproject-models.netlify.com/binary.cto
 
 enum EnvelopeStatusCode {
   o Any

@@ -14,8 +14,8 @@
 
 namespace org.accordproject.runtime
 
-import org.accordproject.contract.Party from https://models.accordproject.org/accordproject/contract.cto
-import org.accordproject.contract.ContractData from https://models.accordproject.org/accordproject/contract.cto
+import org.accordproject.contract.Party from https://release-1-0--accordproject-models.netlify.com/accordproject/contract.cto
+import org.accordproject.contract.ContractData from https://release-1-0--accordproject-models.netlify.com/accordproject/contract.cto
 
 /**
  * Runtime API

@@ -14,7 +14,7 @@
 
 namespace org.accordproject.payment.endorsement
 
-import org.accordproject.money.CryptoMonetaryAmount from https://models.accordproject.org/money.cto
+import org.accordproject.money.CryptoMonetaryAmount from https://release-1-0--accordproject-models.netlify.com/money.cto
 
 /** This smart-contract model describes a routine that would transfer a cryptocurrency payment to be made by a separate smart contract (a “payment smart contract”) on a specified date to a payee to a transferee authorized by the payee. This can be thought of as equivalent to flipping a check or note over and writing “Pay to the order of” on the back, hence it is referred to as an “endorsement smart contract”.
  */

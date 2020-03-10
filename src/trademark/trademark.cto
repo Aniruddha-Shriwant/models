@@ -14,13 +14,13 @@
 
 namespace org.accordproject.trademark
 
-import org.accordproject.address.PostalAddress from https://models.accordproject.org/address.cto
-import org.accordproject.geo.Country from https://models.accordproject.org/geo.cto
-import org.accordproject.geo.GeoCoordinates from https://models.accordproject.org/geo.cto
-import org.accordproject.person.Person from https://models.accordproject.org/person.cto
+import org.accordproject.address.PostalAddress from https://release-1-0--accordproject-models.netlify.com/address.cto
+import org.accordproject.geo.Country from https://release-1-0--accordproject-models.netlify.com/geo.cto
+import org.accordproject.geo.GeoCoordinates from https://release-1-0--accordproject-models.netlify.com/geo.cto
+import org.accordproject.person.Person from https://release-1-0--accordproject-models.netlify.com/person.cto
 
-import org.accordproject.usa.entity.EntityType from https://models.accordproject.org/usa/entity.cto
-import org.accordproject.color.Color from https://models.accordproject.org/color.cto
+import org.accordproject.usa.entity.EntityType from https://release-1-0--accordproject-models.netlify.com/usa/entity.cto
+import org.accordproject.color.Color from https://release-1-0--accordproject-models.netlify.com/color.cto
 /**
 * This smart-contract model describes a United States (US) Trademark Asset that may or may not have foreign counterparts.
 * Drafted by Perkins Coie LLP

@@ -14,8 +14,8 @@
 
 namespace org.accordproject.usa.business
 
-import org.accordproject.geo.GeoCoordinates from https://models.accordproject.org/geo.cto
-import org.accordproject.address.PostalAddress from https://models.accordproject.org/address.cto
+import org.accordproject.geo.GeoCoordinates from https://release-1-0--accordproject-models.netlify.com/geo.cto
+import org.accordproject.address.PostalAddress from https://release-1-0--accordproject-models.netlify.com/address.cto
 
 /**
  * Types of businesses in the USA

@@ -14,9 +14,9 @@
 
 namespace org.accordproject.finance.loan
 
-import org.accordproject.time.Duration from https://models.accordproject.org/time@0.2.0.cto
-import org.accordproject.money.CurrencyCode from https://models.accordproject.org/money@0.2.0.cto
-import org.accordproject.money.DigitalCurrencyCode from https://models.accordproject.org/money@0.2.0.cto
+import org.accordproject.time.Duration from https://release-1-0--accordproject-models.netlify.com/time@0.2.0.cto
+import org.accordproject.money.CurrencyCode from https://release-1-0--accordproject-models.netlify.com/money@0.2.0.cto
+import org.accordproject.money.DigitalCurrencyCode from https://release-1-0--accordproject-models.netlify.com/money@0.2.0.cto
 
 enum CurrencyType {
   o MONETARY
