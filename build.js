@@ -14,9 +14,9 @@
 
 'use strict';
 
-const ModelManager = require('@accordproject/concerto').ModelManager;
-const ModelFile = require('@accordproject/concerto').ModelFile;
-const FileWriter = require('@accordproject/concerto').FileWriter;
+const ModelManager = require('@accordproject/concerto-core').ModelManager;
+const ModelFile = require('@accordproject/concerto-core').ModelFile;
+const FileWriter = require('@accordproject/concerto-tools').FileWriter;
 const CodeGen = require('@accordproject/concerto-tools').CodeGen;
 const rimraf = require('rimraf');
 const path = require('path');
@@ -201,9 +201,6 @@ let modelFileIndex = [];
 
 (async function () {
 
-    // load system model
-    const systemModel = fs.readFileSync(rootDir + '/cicero/base.cto', 'utf8');
-
     // delete build directory
     rimraf.sync(buildDir);
 
@@ -218,11 +215,9 @@ let modelFileIndex = [];
     // validate and copy all the files
     const files = await getFiles(rootDir);
     for( const file of files ) {
-        
         const modelText = fs.readFileSync(file, 'utf8');
         const modelManager = new ModelManager();
-        modelManager.addModelFile(systemModel, 'base.cto', false, true);
-        const modelFile  = new ModelFile(modelManager, modelText, file);     
+        const modelFile  = new ModelFile(modelManager, modelText, file);
         console.log(`Processing ${modelFile.getNamespace()}`);
         let modelFilePlantUML = '';
         // passed validation, so copy to build dir
