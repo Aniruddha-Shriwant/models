@@ -15,7 +15,7 @@
 namespace org.accordproject.runtime
 
 import org.accordproject.runtime.Obligation from https://release-1-0--accordproject-models.netlify.com/accordproject/runtime.cto
-import org.accordproject.money.MonetaryAmount from https://release-1-0--accordproject-models.netlify.com/money.cto@0.2.0
+import org.accordproject.money.MonetaryAmount from https://release-1-0--accordproject-models.netlify.com/money@0.2.0.cto
 
 /**
  * Useful Obligations
