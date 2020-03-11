@@ -15,11 +15,11 @@
 namespace org.accordproject.signature
 
 import org.accordproject.runtime.Request from https://release-1-0--accordproject-models.netlify.com/accordproject/runtime.cto
-import org.accordproject.contract.AccordContract from https://release-1-0--accordproject-models.netlify.com/accordproject/contract.cto
+import org.accordproject.contract.ContractData from https://release-1-0--accordproject-models.netlify.com/accordproject/contract.cto
 
 /**
  * A request that indicates that a contract has been signed by all parties
  */
 transaction ContractSigned extends Request {
-    --> AccordContract contract
+    --> ContractData contract
 }

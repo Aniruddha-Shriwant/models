@@ -15,7 +15,6 @@
 namespace org.accordproject.payment
 
 import org.accordproject.runtime.Request from https://release-1-0--accordproject-models.netlify.com/accordproject/runtime.cto
-import org.accordproject.contract.AccordContract from https://release-1-0--accordproject-models.netlify.com/accordproject/contract.cto
 
 /**
  * A request that indicates that a payment has been received
